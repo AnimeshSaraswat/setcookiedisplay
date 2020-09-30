@@ -1,3 +1,4 @@
+//This code is for the Setcookie display 
 document.addEventListener('DOMContentLoaded', function(){
   if(document.cookie != 0) {
     incrementCookie();
@@ -7,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function(){
   }
 });
 
+// we are going to use the DOM manipulation here in the script
 function incrementCookie() {
   var cookieFeatch = document.cookie.split("=");
   console.log(cookieFeatch);
